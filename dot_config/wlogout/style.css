@@ -24,7 +24,7 @@ button {
 button:focus,
 button:active,
 button:hover {
-  border-color: #FF4040;
+  border-color: #cdd6f4;;
   outline-style: none;
 }
 

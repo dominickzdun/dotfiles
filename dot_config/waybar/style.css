@@ -36,23 +36,25 @@ window#waybar.hidden {
 
 #workspaces button.active {
   color: #1e1e2e;
-  background-color: #ff004d;
+  background-color: #cdd6f4;
 }
 
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
   color: #1e1e2e;
-  background-color: #ff004d;
+  background-color: #cdd6f4;
 }
 
 #workspaces button.urgent {
-  background-color: #ff004d;
+  background-color: #cdd6f4;
 }
 
 #memory,
 #bluetooth,
 #custom-power,
+#custom-wifi,
+#custom-tlp,
 #cpu,
 #battery,
 #backlight,
@@ -88,7 +90,7 @@ window#waybar.hidden {
 }
 
 #battery.charging {
-  background-color: #ff004d;
+  background-color: #cdd6f4;
   color: #181825;
 }
 
